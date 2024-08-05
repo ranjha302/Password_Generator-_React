@@ -1,0 +1,304 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color:rgb(43, 43, 72);
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.passwordBox{
+  width:350px;
+  padding:20px;
+  background-color:blueviolet;
+ 
+
+}
+.passwordBoxin{
+  width:350px;
+  display:flex;
+}
+.passwordBoxin input{
+  flex-basis:80%;
+  padding:6px;
+
+}
+.passwordBoxin button{
+  flex-basis:20%;
+  padding:10px 0px;
+}
+.passwordLength{
+  padding: 10px 0px;
+  display:flex;
+  justify-content:space-between;
+}
+.passwordLength label{
+  flex-basis:80%;
+
+}
+.passwordLength input{
+  padding:10px;
+  align-text:center;
+  width:60px;
+  flex-basis:20%;
+
+}
+
+.btn{
+  width:100%;
+   padding:10px, 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(43, 43, 72);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.passwordBox {
+  width: 350px;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.passwordBox h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.passwordBoxin {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.passwordBoxin input {
+  flex-basis: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.passwordBoxin button {
+  flex-basis: 20%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.passwordBoxin button:hover {
+  background-color: lightgray;
+}
+
+.passwordBoxin input:focus {
+  outline: none;
+}
+
+.passwordLength {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.passwordLength label {
+  flex-basis: 80%;
+  color: white;
+  font-size: 16px;
+}
+
+.passwordLength input {
+  flex-basis: 20%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: lightgray;
+}
+
+.custom-warning {
+  color: red !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(43, 43, 72);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.passwordBox {
+  width: 350px;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.passwordBox h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.passwordBoxin {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.passwordBoxin input {
+  flex-basis: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.passwordBoxin button {
+  flex-basis: 20%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.passwordBoxin button:hover {
+  background-color: lightgray;
+}
+
+.passwordBoxin input:focus {
+  outline: none;
+}
+
+.passwordLength {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.passwordLength label {
+  flex-basis: 80%;
+  color: white;
+  font-size: 16px;
+}
+
+.passwordLength input {
+  flex-basis: 20%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: lightgray;
+}
+
+.custom-warning {
+  color: red !important;
+}
